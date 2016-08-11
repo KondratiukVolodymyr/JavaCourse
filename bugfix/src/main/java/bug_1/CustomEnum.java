@@ -8,7 +8,7 @@ public enum CustomEnum {
 
     int act;
 
-    CustomEnum(int act){
+    CustomEnum(int act){ //додав конструктор
         this.act = act;
     }
 }

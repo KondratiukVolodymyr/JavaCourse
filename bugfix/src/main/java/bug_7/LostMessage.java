@@ -17,11 +17,7 @@ public class LostMessage {
 
     public static void main(String[] args) throws Exception {
         LostMessage lm = new LostMessage();
-        try {
-            lm.f();
-        } finally {
-            lm.dispose();
-        }
+              lm.f(); // забрав finally блок
     }
 
 

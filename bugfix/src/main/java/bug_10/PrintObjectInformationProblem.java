@@ -62,7 +62,7 @@ class User {
     public String toString() {
         return "User{" +
                 "manager=" + manager +
-                ", company=" + company.getAddress()+
+                ", company=" + company + //забрав постиання на адресу
                 ", name='" + name + '\'' +
                 ", surName='" + surName + '\'' +
                 ", age=" + age +

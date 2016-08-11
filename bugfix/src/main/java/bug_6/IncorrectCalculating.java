@@ -45,7 +45,7 @@ class Calculator {
 
             return sum;
         } finally {
-            return (int) (Math.random() * 10 + 1);
+            return sum;// змінив рандом на суму
         }
 
     }
