@@ -12,7 +12,7 @@ public class PropertyReading {
         String password = "1234";
 
         Properties properties = new Properties();
-        InputStream inputStream = CustomEnum.class.getResourceAsStream("/bug_2/credentials.properties");//please use relative path, not absolute
+        InputStream inputStream = PropertyReading.class.getResourceAsStream("credentials.properties");//please use relative path, not absolute
         properties.load(inputStream);
         final String adminUserName = properties.getProperty("username"); //додав "" для читання кредів
         final String adminPassword = properties.getProperty("password");

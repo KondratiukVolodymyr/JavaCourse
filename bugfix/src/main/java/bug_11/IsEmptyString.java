@@ -8,8 +8,8 @@ package bug_11;
 public class IsEmptyString {
 
     private final String CUSTOM_DEFAULT_VALUE;// not initialize it in declaration
-    public IsEmptyString(String CUSTOM_DEFAULT_VALUE) {
-        this.CUSTOM_DEFAULT_VALUE = CUSTOM_DEFAULT_VALUE;
+    public IsEmptyString(String cdv) {
+        this.CUSTOM_DEFAULT_VALUE = cdv;
     }
 
     public static void main(String[] args) {

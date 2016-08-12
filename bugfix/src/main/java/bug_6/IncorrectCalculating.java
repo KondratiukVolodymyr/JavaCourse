@@ -38,15 +38,13 @@ class Calculator {
 
     public int add(int... numbers) {
         int sum = 0;
-        try {
+
             for (int n : numbers) {
                 sum += n;
             }
 
-            return sum;
-        } finally {
             return sum;// змінив рандом на суму
-        }
+
 
     }
 

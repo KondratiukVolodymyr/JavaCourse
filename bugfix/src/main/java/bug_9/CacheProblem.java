@@ -8,13 +8,7 @@ public class CacheProblem {
     public static void main(String[] args) {
         final CacheProblem cacheProblem = new CacheProblem();
         cacheProblem.setCache("cache");
-        cacheProblem.fullCacheInformation(cacheProblem.getCache());
         System.out.println(cacheProblem.cache.equals("cache"));//hould be true, please provide few variants to fix this problem,
-    }
-
-
-    public void fullCacheInformation(String cache) {
-        cache = "cacheInfo";
     }
 
     public String getCache() {
