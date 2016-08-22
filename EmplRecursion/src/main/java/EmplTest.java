@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 public class EmplTest {
 
     public static void main(String[] args) {
@@ -23,7 +21,7 @@ public class EmplTest {
         service.getCompany().add(empl7);
 
 
-        service.getManagerByName("6");
+        service.getManagerByName("4");
 
     }
 }
