@@ -21,7 +21,7 @@ public class EmplTest {
         service.getCompany().add(empl7);
 
 
-        service.getManagerByName("4");
+        service.getManagerByName("1");
 
     }
 }

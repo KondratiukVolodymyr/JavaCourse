@@ -17,10 +17,12 @@ public class EmplService {
         }
         System.out.println("Employee's name: " + currentEmployee.getName());
         System.out.println("Managers:");
-        managerRecursion(currentEmployee);
+        if(currentEmployee.getManager() == null) System.out.println("This is a main boss!");
+        else managerRecursion(currentEmployee);
     }
 
     private void managerRecursion(Employee employee) {
+
         if (employee.getManager() != null) {
             System.out.println(employee.getManager().getName());
             managerRecursion(employee.getManager());
