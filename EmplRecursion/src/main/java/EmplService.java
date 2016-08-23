@@ -13,6 +13,7 @@ public class EmplService {
         for (Employee employee : company) {
             if (name.equals(employee.getName())) {
                 currentEmployee = employee;
+                break;
             }
         }
         System.out.println("Employee's name: " + currentEmployee.getName());
